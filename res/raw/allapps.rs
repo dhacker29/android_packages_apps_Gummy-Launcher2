@@ -397,8 +397,8 @@ main(int launchID)
     g_DT = minf(g_DT, 0.2f);
 
     if (g_Zoom != state->zoomTarget) {
-	// Dustin Jorge --- changed zoom speed by adjusting modifier from 1.7 to 4.5
-        float dz = g_DT * 4.5f;
+	// Dustin Jorge --- changed zoom speed by adjusting modifier from 1.7 to 4.5 - Remodified by KEJAR31 to 3.0
+        float dz = g_DT * 3.0f;
         if (state->zoomTarget < 0.5f) {
             dz = -dz;
         }
