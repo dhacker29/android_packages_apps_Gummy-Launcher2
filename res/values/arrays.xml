@@ -2,32 +2,32 @@
 <resources>
     <string-array name="hotseats" translatable="false">
 
-	<!-- ******* TALK LAUNCHER, far left, index 0 ******* -->
-	<item>intent:#Intent;action=android.intent.action.MAIN;component=com.google.android.talk/.SigningInActivity;end</item>
+	<!-- Far left, index 0  -->
+	<item></item>
 
 	<!-- ******* PHONE LAUNCHER ******, left, index 1 -->
-	<item>intent:#Intent;action=android.intent.action.MAIN;component=com.android.contacts/.DialtactsActivity;end</item>
+	<item>intent:#Intent;action=android.intent.action.DIAL;end</item>
 
 	<!-- ******* BROWSER LAUNCHER, right, index 2 ****** -->
         <item>*BROWSER*</item>
 
-	<!-- ******* MARKET LAUNCHER ******, far right, index 3 -->
-	<item>intent:#Intent;action=android.intent.action.MAIN;component=com.android.vending/.AssetBrowserActivity;end</item>
+	<!-- Far right, index 3 -->
+	<item></item>
 
     </string-array>
 
     <array name="hotseat_icons_gingerbread" translatable="false">
-        <item>@drawable/hotseat_talk_gingerbread</item>
+        <item>@drawable/hotseat_add</item>
         <item>@drawable/hotseat_phone_gingerbread</item>
         <item>@drawable/hotseat_browser_gingerbread</item>
-        <item>@drawable/hotseat_market_gingerbread</item>  
+        <item>@drawable/hotseat_add</item>  
     </array>
 
     <array name="hotseat_icons_froyo" translatable="false">
-        <item>@drawable/hotseat_talk_froyo</item>
+        <item>@drawable/hotseat_add</item>
         <item>@drawable/hotseat_phone_froyo</item>
         <item>@drawable/hotseat_browser_froyo</item>
-        <item>@drawable/hotseat_market_froyo</item>  
+        <item>@drawable/hotseat_add</item>  
     </array>
 
     <array name="hotseat_backgrounds_gingerbread" translatable="false">
