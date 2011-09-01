@@ -9,7 +9,7 @@
 	<string name="numHotseats_key">numHotseats</string>
 	<string name="numHotseats_title">Number of Hotseats</string>
 	<string name="numHotseats_summary">The number of hotseats to show in portrait mode.</string>
-	<string name="numHotseats_default">4</string>
+	<string name="numHotseats_default">2</string>
 	    <!-- listvals -->
 	    <string-array name="numHotseats_display">
 		    <item>2 Hotseats</item>
